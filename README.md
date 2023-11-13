@@ -5,7 +5,16 @@
 
 This project aims at building a web App that automatically estimates food attributes such as ingredients and nutritional value by classifying the input image of food.  Our method employs Clarifai's AI-Driven Food Detection Model for accurate food identification and Food API's to give the nutritional value of the identified food.
 
+---
+
 ### Work Flow of the Project
 * User interacts with the Web App to Load an image.  The image is passed to the server application, which uses Clarifai's AI-Driven Food Detection Model Service to analyze the images and Nutrition API to provide nutritional 
 * Information about the analyzed Image
 * Nutritional information of the analyzed image is returned to the app for display
+
+
+---
+
+## 👨‍💻Technical Architecture:
+
+![Untitled](https://lh5.googleusercontent.com/HptOGv0lSRnQb1--uqUV-lbXaDQwuSqggE0tHdCTwTBqLVJM5aTd0FIYPhdhsRRwMLA56hW881qT6Ys-6-bqMuEJGlrJLEU8YOLsz5fCg43Mp9YN2vHcR_letaL9jw)
